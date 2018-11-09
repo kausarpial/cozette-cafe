@@ -575,6 +575,70 @@ a:hover {
   color: #1DA1F3;
 }
 
+.img-shape {
+  position: relative;
+}
+
+.img-shape::before {
+  position: absolute;
+  content: '';
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  background: #FCEFD3;
+  left: 100px;
+  top: -40px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: -1;
+}
+
+.img-shape::after {
+  position: absolute;
+  content: '';
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  background: #FCEFD3;
+  right: 100px;
+  bottom: -40px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: -1;
+}
+
+.img-shape-alt {
+  position: relative;
+}
+
+.img-shape-alt::before {
+  position: absolute;
+  content: '';
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  background: #FCEFD3;
+  right: 100px;
+  top: -40px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: -1;
+}
+
+.img-shape-alt::after {
+  position: absolute;
+  content: '';
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  background: #FCEFD3;
+  left: 100px;
+  bottom: -40px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: -1;
+}
+
 /* display grid */
 .grid {
   display: grid;
