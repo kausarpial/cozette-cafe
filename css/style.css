@@ -117,7 +117,7 @@ body {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 999;
+  z-index: 99999999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -630,6 +630,11 @@ a:hover {
   border-bottom: 1px solid #434244;
   height: 45px;
   padding-left: 50px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #fdb549;
 }
 
 @media (max-width: 575px) {
