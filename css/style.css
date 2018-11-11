@@ -123,7 +123,8 @@ body {
   justify-content: center;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
 }
 
@@ -219,12 +220,20 @@ a:hover {
   color: #fdb549 !important;
 }
 
+a.text-primary:hover {
+  color: #fdb549 !important;
+}
+
 .text-color {
   color: #434244;
 }
 
 .text-light {
   color: #a1a0a1 !important;
+}
+
+.bg-gray {
+  background: #cccccc;
 }
 
 .mb-10 {
@@ -333,6 +342,14 @@ a:hover {
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px);
   }
+}
+
+.margin-top {
+  margin-top: 130px;
+}
+
+.bg-none {
+  background: transparent;
 }
 
 .navigation {
@@ -826,6 +843,15 @@ a:hover {
   right: 100px;
   bottom: 80px;
   z-index: -1;
+}
+
+/* contact page */
+#map_canvas {
+  height: 500px;
+}
+
+textarea.form-control {
+  height: 200px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
